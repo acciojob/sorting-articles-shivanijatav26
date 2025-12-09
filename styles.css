@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+/* Basic page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #1f3a93;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/* Unordered list styling */
+ul#band {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+ul
